@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Cash Register Project</title>
+</head>
+<body>
+  <div class="container">
+    <img src="https://cdn.freecodecamp.org/platform/universal/fcc_primary.svg" alt="fCC logo" class="logo">
+    <h1 class="heading">Cash Register Project</h1>
+    <div id="change-due"></div>
+    <form action="#" class="user-input-form">
+      <label for="user-input" class="user-input-label">Enter cash from customer:</label>
+      <input type="number" class="user-input" id="cash" name="user-input">
+      <button class="purchase-button" id="purchase-btn">Purchase</button>
+    </form>
+    <div class="cash-register">
+      <div class="cash-register__display">
+        <div class="cash-register__display-screen">
+          <p id="price-screen" class="cash-register__display-screen-text"></p>
+        </div>
+      </div>
+      <div class="cash-register__column"></div>
+      <div class="cash-register__body">
+        <div class="cash-register__body-keyboard">
+          <div class="cash-register__body-keyboard-button"></div>
+          <div class="cash-register__body-keyboard-button"></div>
+          <div class="cash-register__body-keyboard-button"></div>
+          <div class="cash-register__body-keyboard-button"></div>
+          <div class="cash-register__body-keyboard-button"></div>
+          <div class="cash-register__body-keyboard-button"></div>
+          <div class="cash-register__body-keyboard-button"></div>
+          <div class="cash-register__body-keyboard-button"></div>
+          <div class="cash-register__body-keyboard-button"></div>
+        </div>
+        <div class="cash-register__body-display">
+          <h2 class="cash-register__body-display-heading">Change in drawer: </h2>
+          <div class="cash-register__body-display-drawer" id="drawer-display">
+            
+          </div>
+        </div>
+      </div>
+      <div class="cash-reister__bottom">
+        <div class="cash-register__bottom-button"></div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
